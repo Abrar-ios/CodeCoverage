@@ -15,7 +15,7 @@
 		16E498A92A7E724900A8936C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E498A72A7E724900A8936C /* LaunchScreen.storyboard */; };
 		16E498BE2A7E724900A8936C /* CodeCoverageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E498BD2A7E724900A8936C /* CodeCoverageUITests.swift */; };
 		16E498C02A7E724900A8936C /* CodeCoverageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E498BF2A7E724900A8936C /* CodeCoverageUITestsLaunchTests.swift */; };
-		16E498CD2A7E72BF00A8936C /* CodeCoverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E498CC2A7E72BF00A8936C /* CodeCoverage.swift */; };
+		16E498CD2A7E72BF00A8936C /* CoveredClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E498CC2A7E72BF00A8936C /* CoveredClass.swift */; };
 		16E498CF2A7E743E00A8936C /* CodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E498CE2A7E743E00A8936C /* CodeCoverageTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		16E498B92A7E724900A8936C /* CodeCoverageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCoverageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E498BD2A7E724900A8936C /* CodeCoverageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageUITests.swift; sourceTree = "<group>"; };
 		16E498BF2A7E724900A8936C /* CodeCoverageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		16E498CC2A7E72BF00A8936C /* CodeCoverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverage.swift; sourceTree = "<group>"; };
+		16E498CC2A7E72BF00A8936C /* CoveredClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveredClass.swift; sourceTree = "<group>"; };
 		16E498CE2A7E743E00A8936C /* CodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 				16E498A52A7E724900A8936C /* Assets.xcassets */,
 				16E498A72A7E724900A8936C /* LaunchScreen.storyboard */,
 				16E498AA2A7E724900A8936C /* Info.plist */,
-				16E498CC2A7E72BF00A8936C /* CodeCoverage.swift */,
+				16E498CC2A7E72BF00A8936C /* CoveredClass.swift */,
 			);
 			path = CodeCoverage;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16E498CD2A7E72BF00A8936C /* CodeCoverage.swift in Sources */,
+				16E498CD2A7E72BF00A8936C /* CoveredClass.swift in Sources */,
 				16E498A12A7E724800A8936C /* ViewController.swift in Sources */,
 				16E4989D2A7E724800A8936C /* AppDelegate.swift in Sources */,
 				16E4989F2A7E724800A8936C /* SceneDelegate.swift in Sources */,

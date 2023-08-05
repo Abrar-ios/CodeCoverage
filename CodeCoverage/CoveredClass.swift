@@ -1,5 +1,5 @@
 //
-//  CodeCoverage.swift
+//  CoveredClass.swift
 //  CodeCoverage
 //
 //  Created by HAQQQABD on 05/08/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CodeCoverage {
+class CoveredClass {
     
     static func max(_ x:Int, _ y:Int) -> Int {
         if(x < y){
