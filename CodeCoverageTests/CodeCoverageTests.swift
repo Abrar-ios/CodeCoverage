@@ -30,4 +30,11 @@ class CodeCoverageTest : XCTestCase {
         XCTAssertEqual(result, "2")
     }
     
+    func test_area_with7ShouldBe49(){
+        let sut = CoveredClass()
+        sut.width = 7
+        
+        XCTAssertEqual(sut.area, 49)
+    }
+    
 }
